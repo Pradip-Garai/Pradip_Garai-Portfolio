@@ -107,3 +107,32 @@
 .read-more:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .experience-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .company-name {
+    font-size: 18px;
+  }
+
+  .role-name {
+    font-size: 14px;
+  }
+
+  .experience-img {
+    height: 200px;
+  }
+
+  .experience-content {
+    padding: 0 20px 20px;
+  }
+}

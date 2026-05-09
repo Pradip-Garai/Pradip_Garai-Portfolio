@@ -134,3 +134,28 @@ section {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--cyan-accent);
 }
+
+/* Responsive Globals */
+@media (max-width: 768px) {
+  section {
+    padding: 80px 5%;
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 60px 5%;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .section-subtitle {
+    font-size: 12px;
+  }
+}

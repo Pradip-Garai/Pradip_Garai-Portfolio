@@ -121,3 +121,34 @@
   margin-bottom: 0;
   margin-top: auto;
 }
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-title {
+    font-size: 20px;
+  }
+
+  .project-img {
+    height: 200px;
+  }
+
+  .project-content {
+    padding: 20px;
+  }
+
+  .project-link {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+}

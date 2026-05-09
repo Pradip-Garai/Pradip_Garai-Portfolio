@@ -181,3 +181,29 @@
     padding: 30px 20px;
   }
 }
+
+@media (max-width: 480px) {
+  .contact-heading {
+    font-size: 36px;
+  }
+
+  .contact-form-container {
+    padding: 20px 10px;
+  }
+
+  .info-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .info-value {
+    font-size: 14px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 12px;
+    font-size: 14px;
+  }
+}

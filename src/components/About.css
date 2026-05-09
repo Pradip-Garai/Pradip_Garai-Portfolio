@@ -92,3 +92,31 @@
   margin-bottom: 0;
   line-height: 1.4;
 }
+
+@media (max-width: 992px) {
+  .about-content {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .stat-card {
+    text-align: center;
+  }
+
+  .floating-badge {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .stat-card h3 {
+    font-size: 28px;
+  }
+}
