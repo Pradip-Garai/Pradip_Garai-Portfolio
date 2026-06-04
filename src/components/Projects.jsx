@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: 'AI Powered Placement Preparation Platform',
-    category: 'Full Stack',
+    category: 'Web Apps',
     image: './Zentor.png',
     tech: ['Next.js', 'Firebase', 'Grok AI'],
     description: 'A full-featured placement preparation platform with ai-based personalized learning and interview preparation.',
@@ -41,7 +41,7 @@ const projectsData = [
     category: 'Web Apps',
     image: './blognest.png',
     tech: ['Node.js', 'Express.js', 'EJS','MongoDB'],
-    description: 'A modern blogging platform that enables users to discover, read, and engage with articles on trending and current topics. Users can also create, publish, and manage their own blogs, share insights with the community, and build their personal online presence through high-quality content.',
+    description: 'A blogging platform where users can read trending articles and publish their own blogs to share ideas, knowledge, and experiences.',
     githubLink: 'https://github.com/Pradip-Garai/Blog-Nest', // Add your GitHub link here
     liveLink: 'https://blog-nest-2.vercel.app/',   // Add your Live link here
   }
