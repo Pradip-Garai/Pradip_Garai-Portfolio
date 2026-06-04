@@ -34,8 +34,20 @@ const projectsData = [
     description: 'Image Extension Converter is a web application that converts images from one format to another. It is a very simple and easy-to-use application. PNG , JPG, JPEG, WEBP',
     githubLink: 'https://github.com/Pradip-Garai/Streamlit_App/blob/main/main.py', // Add your GitHub link here
     liveLink: 'https://images-extension-converter.streamlit.app/',   // Add your Live link here
+  },
+  {
+    id: 4,
+    title: 'BlogNest',
+    category: 'Web Apps',
+    image: './blognest.png',
+    tech: ['Node.js', 'Express.js', 'EJS','MongoDB'],
+    description: 'A modern blogging platform that enables users to discover, read, and engage with articles on trending and current topics. Users can also create, publish, and manage their own blogs, share insights with the community, and build their personal online presence through high-quality content.',
+    githubLink: 'https://github.com/Pradip-Garai/Blog-Nest', // Add your GitHub link here
+    liveLink: 'https://blog-nest-2.vercel.app/',   // Add your Live link here
   }
 ];
+
+
 
 const categories = ['All', 'Web Apps', 'Full Stack'];
 
