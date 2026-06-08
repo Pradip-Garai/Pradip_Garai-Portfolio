@@ -35,17 +35,15 @@ const Hero = () => {
           <h2 className="role">
             <TypeAnimation
               sequence={[
-                'Full Stack Developer',
-                1000,
-                'Frontend Developer',
-                1000,
-                'React.js Developer',
+                'GENAI Developer',
                 1000,
                 'Node.js Developer',
                 1000,
                 'Backend Developer',
                 1000,
-                'Java Developer',
+                'AIML Developer',
+                1000,
+                'AI Engineer',
                 1000,
               ]}
               wrapper="span"
