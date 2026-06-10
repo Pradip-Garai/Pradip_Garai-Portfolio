@@ -55,7 +55,7 @@ const Hero = () => {
 
           <p className="description">
             I build modern and scalable web
-            applications using React, Node.js,
+            applications using  Node.js,
             Express, MongoDB, and Java.
             Passionate about solving real-world
             problems through clean code and
@@ -136,7 +136,7 @@ const Hero = () => {
 
             <div className="orbit orbit-1">
               <div className="orbit-item react-badge">
-                React
+                Python
               </div>
             </div>
 
@@ -148,7 +148,7 @@ const Hero = () => {
 
             <div className="orbit orbit-3">
               <div className="orbit-item express-badge">
-                Express
+                Machine Learning
               </div>
             </div>
 

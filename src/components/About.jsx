@@ -19,8 +19,8 @@ const About = () => {
         >
           <div className="image-container">
             <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=600&auto=format&fit=crop" alt="Coding on Laptop" />
-            <div className="floating-badge badge-react">React.js</div>
-            <div className="floating-badge badge-python">Express.js</div>
+            <div className="floating-badge badge-react">Python</div>
+            <div className="floating-badge badge-python">Machine Learning</div>
             <div className="floating-badge badge-node">Node.js</div>
           </div>
         </motion.div>
@@ -33,25 +33,15 @@ const About = () => {
           transition={{ duration: 0.8 }}
         >
           <p>
-            I am a passionate Full Stack Developer and BCA student with a strong
-            interest in building modern and scalable web applications. I enjoy
-            turning ideas into real-world digital solutions using technologies like
-            React, Node.js, Express, MongoDB, and JavaScript.
+            I am a Backend Engineer with 2+ years of experience and a passionate AI/ML Engineer focused on building scalable, efficient backend systems and intelligent data solutions. I specialize in robust REST APIs and microservices using Node.js, Express, and MongoDB, while leveraging Python for machine learning and data analysis.
           </p>
 
           <p>
-            My journey in tech started with curiosity about how websites and
-            applications work behind the scenes. Since then, I have built several
-            projects including a AI Powered Placement Preparation Platform, authentication
-            systems, and full-stack MERN applications. I am also exploring
-            System Design, Blockchain Development, and AI-powered applications.
+            Over the past 2 years, I have designed high-performance backend systems, built end-to-end ML pipelines, and created intelligent applications. My expertise spans full-stack backend development with MySQL and MongoDB, data science, statistical analysis, and deploying ML models using tools like VS Code, Postman, Google Colab, and n8n.
           </p>
 
           <p>
-            Apart from coding, I love solving DSA problems, learning new
-            technologies, and improving my development skills every day. I believe
-            in continuous learning, consistency, and creating impactful projects
-            that solve real-world problems.
+            I am passionate about solving engineering challenges and leveraging AI to create data-driven solutions. I believe in writing clean, maintainable code and collaborating effectively with teams to build products that make a real impact.
           </p>
 
           <div className="stats-grid">

@@ -21,7 +21,14 @@ import {
   FaCss3Alt,
   FaPython,
   FaJava,
+  FaChartBar,
+  FaChartLine,
 } from 'react-icons/fa';
+
+import {
+  SiNumpy,
+  SiPandas
+} from "react-icons/si";
 
 import {
   SiJavascript,
@@ -37,46 +44,10 @@ import './Skills.css';
 
 const skillsData = [
   {
-    name: 'React',
-    icon: <FaReact />,
-    category: 'Frontend',
-    color: '#61DAFB',
-  },
-  {
-    name: 'JavaScript',
-    icon: <SiJavascript />,
-    category: 'Frontend',
-    color: '#F7DF1E',
-  },
-  {
-    name: 'HTML5',
-    icon: <FaHtml5 />,
-    category: 'Frontend',
-    color: '#E34F26',
-  },
-  {
-    name: 'CSS3',
-    icon: <FaCss3Alt />,
-    category: 'Frontend',
-    color: '#1572B6',
-  },
-  {
-    name: 'Tailwind',
-    icon: <SiTailwindcss />,
-    category: 'Frontend',
-    color: '#38B2AC',
-  },
-  {
     name: 'Node.js',
     icon: <FaNodeJs />,
     category: 'Backend',
     color: '#339933',
-  },
-  {
-    name: 'Python',
-    icon: <FaPython />,
-    category: 'Programming',
-    color: '#3776AB',
   },
   {
     name: 'Express',
@@ -93,7 +64,7 @@ const skillsData = [
   {
     name: 'Java',
     icon: <FaJava />,
-    category: 'Programming',
+    category: 'Languages',
     color: '#f89820',
   },
   {
@@ -101,12 +72,6 @@ const skillsData = [
     icon: <GrMysql />,
     category: 'Database',
     color: '#00758F',
-  },
-  {
-    name: 'High Level System Design',
-    icon: <MdArchitecture />,
-    category: 'System Design',
-    color: '#8E44AD',
   },
   {
     name: 'VS Code',
@@ -133,44 +98,43 @@ const skillsData = [
     color: '#FF6C37',
   },
   {
-    name: 'Antigravity',
-    icon: <TbBrandGoogleAnalytics />,
-    category: 'Tools',
-    color: '#8A2BE2',
+    name: 'Python',
+    icon: <FaPython />,
+    category: 'Languages',
+    color: '#3776AB',
   },
   {
-    name: 'Gamma',
-    icon: <RiSparklingFill />,
-    category: 'Tools',
-    color: '#FFD700',
+    name: 'Numpy',
+    icon: <SiNumpy />,
+    category: 'AIML & Data Science',
+    color: '#013243',
   },
   {
-    name: 'NetBeans',
-    icon: <SiApachenetbeanside />,
-    category: 'Tools',
-    color: '#1B6AC6',
+    name: 'Pandas',
+    icon: <SiPandas />,
+    category: 'AIML & Data Science',
+    color: '#150458',
   },
   {
-    name: 'Figma',
-    icon: <FaFigma />,
-    category: 'Tools',
-    color: '#F24E1E',
+    name: 'Matplotlib',
+    icon: <FaChartBar />,
+    category: 'AIML & Data Science',
+    color: '#11557C',
   },
   {
-    name: 'Stitch',
-    icon: <PiNeedleFill />,
-    category: 'Tools',
-    color: '#7B61FF',
+    name: 'Seaborn',
+    icon: <FaChartLine />,
+    category: 'AIML & Data Science',
+    color: '#0055A4',
   },
 ];
 
 const categories = [
   'All',
-  'Frontend',
   'Backend',
   'Database',
-  'Programming',
-  'System Design',
+  'Languages',
+  'AIML & Data Science',
   'Tools',
 ];
 
